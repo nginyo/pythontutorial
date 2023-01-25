@@ -31,7 +31,11 @@ print("hello "+name)"""
 print("Happy New Year!")"""
 
 #Nested Loops:the inner loop will finish all of its iteration before finishing
+<<<<<<< HEAD
 #             one iteration of the outer loop 
+=======
+#             the iteration of the outer loop 
+>>>>>>> 9a8b78a73f303bc53534b3b1447f88666b6eea7c
 
 """rows=int(input('how many rows?: '))
 columns=int(input('how mant columns?: '))
