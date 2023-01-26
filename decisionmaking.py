@@ -22,11 +22,11 @@ elif temp<0 or temp>30:
     print('stay inside')"""
 #not operator
 
-"""temp=int(input('What is the temperature outside? :'))
+temp=int(input('What is the temperature outside? :'))
 if not(temp>=0 and temp<=30):
     print("the temperature is bad today!")
     print('stay inside')
     
 elif not(temp<0 or temp>30):
     print('the temp is good today go outside')
-    print('Go Outside!')"""
+    print('Go Outside!')
