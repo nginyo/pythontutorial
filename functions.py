@@ -104,12 +104,13 @@ def add(*stuff):
     return sum
 print(add(1,2,3,4,5,6))"""
 
-# **kwargs=parameter that parks all arguments into a dictionary ,keyword arguments
-#          useful so that a function can accept a varying amount of keyword arguments
-
-def add(*args):
+"""def add(*args):
     sum=0
     for i in args:
         sum+=i
     return sum
-print(add(20,20,40,50))
+print(add(20,20,40,50))"""
+
+# **kwargs=parameter that parks all arguments into a dictionary ,keyword arguments
+#          useful so that a function can accept a varying amount of keyword arguments
+

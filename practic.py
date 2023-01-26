@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """number1=float(input("Enter a number: "))
 
 if number1>=10 and number1<=20:
