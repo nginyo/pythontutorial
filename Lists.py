@@ -43,23 +43,23 @@ if 'bro' in student:
 
 #set = collection which is unorderd,unindexed. no duplicate values
 
-"""utensils={'fork','spoon','knife','knife','knife'}
+utensils=('fork','spoon','knife','knife','knife')
 dishes={'bowl','plate','cup','knife'}
 #utensils.add('napkin')
 #utensils.remove('fork')
 #utensils.clear()
 #utensils.update(dishes)
 #dinnertable = utensils.union(dishes)#joins two sets together
-
-for x in utensils:
+print(sorted(set(utensils)))
+"""for x in utensils:
     print(x)
 
 for x in dinnertable:
-    print(x)
+    print(x)"""
 
 #print(utensils.difference(dishes))    #prints items which are in utensils but not in dishes
 
-print(utensils.intersection(dishes)) #prints items that are in utensils and in dishes"""
+#print(utensils.intersection(dishes)) #prints items that are in utensils and in dishes"""
 
 #dictionary:A changeable,unordered collection of unique key:value pairs
 #            Fast because they use hashing,allow us to access a value quickly
